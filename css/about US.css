@@ -1,0 +1,47 @@
+.btnB div {
+    border: 1.5px solid #90bafd;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #c8e8ff;
+    cursor: pointer;
+    float: left;
+}
+.textBlock {
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 100px;
+/*    display: none;*/
+}
+#title {
+    text-align: center;
+/*    display: none;*/
+    color: black;
+}
+.fotoBlock img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.fotoBlock {
+    text-align: center;
+    margin-bottom: 100px;
+    display: none;
+}
+#one {
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 20px;
+}
+.fotoBlock p{
+    color: black;
+    font-weight: 100;
+    font-size: 18px;
+    font-style: italic;
+}

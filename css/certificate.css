@@ -1,0 +1,37 @@
+img[alt="last"] {
+    margin-bottom: 100px;
+}
+.certificate h2 {
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.certificate p {
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 100;
+}
+.certificate ul {
+    margin-left: 30px;
+    width: 500px;
+    font-size: 15px;
+}
+.certificate ul>li{
+    margin-bottom: 7px;
+}
+.certificate button[alt="first"] {
+    float: left;
+    width: 250px;
+    letter-spacing: 0;
+    font-size: 18px;
+    padding: 10px;
+}
+.certificate button[alt="last"] {
+    float: right;
+    width: 250px;
+    letter-spacing: 0;
+    font-size: 18px;
+    padding: 10px;
+}

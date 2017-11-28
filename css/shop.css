@@ -1,0 +1,13 @@
+.shop img{
+    height: 150px;
+    width: 150px;
+}
+.shop p{
+    color: black;
+}
+.center {
+    text-align: center;
+}
+.two {
+    margin-top: 20px;
+}

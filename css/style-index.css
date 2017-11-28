@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
+    height: 100%;
+    min-width:900px;
+}
+html {
+    position:relative; 
+    min-height:100%;    
+}
+.size {
+    min-height: 100%;
+}
+.search {
+    width: 150px; /* Ширина поля с кнопкой */
+    border: 1px solid rgba(0, 0, 0, 0.47); /* Параметры рамки */
+    height: auto; /* Минимальная высота */
+    padding: 5px;;
+    float: right;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.search input[placeholder] {
+    padding-left: 7px;
+}
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.74);
+}
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 80%; /* Ширина поля */
+    float: left;
+    background-color: rgba(238, 238, 238, 0);
+/*    height: 90%;*/
+}
+input[type="submit"] {
+    width: 15%; /* Ширина кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../image/search.png) no-repeat; 
+    background-size: contain;/* Параметры фона */
+    float: right;
+    
+}
+.logo img{
+    height: 50px;
+    margin-right: 20px;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+}
+.img img{
+    width: 37px;
+    margin-left:  15px;
+    margin-top: 2%;
+}
+img[alt="basket"]{
+    width: 37px;
+    float: left;
+}
+img[alt="flag"]{
+    width: 37px;
+}
+
+/*
+#contact {
+    background-color: #41a7dd;
+}
+#login {
+    background-color: #10577c;
+}
+*/
+button{
+    color: white;
+    border: none;
+    border-radius:10px;
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+    background-color: #10577c;
+}
+.icon {
+    height: 44px;
+    float: right;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    display: inline-block;
+    margin-top: 6px;
+}
+#contact {
+    margin: 0 15px 0 15px;
+}
+#login {
+    margin-right: 15px;
+}
+ul { list-style-type: none; }
+
+a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+
+
+h1 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 a {
+  color: #c12c42;
+  font-size: 16px;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto 20px;
+  background: #9cafff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 42px;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #000000;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li:first-child .link { border-top: 1px solid #CCC; }
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #000000;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion li.open .link { color: #ffffff; }
+
+.accordion li.open i { color: #000000; }
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+
+
+.submenu {
+  display: none;
+/*  background: #fdf2f2;*/
+  font-size: 14px;
+}
+
+.submenu li:last-child { border-bottom: 1px solid #000000; }
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 12px;
+  padding-left: 70px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+/*
+.submenu a:hover {
+  background: #eb7e8e;
+  color: #FFF;
+}
+*/
+
+/*===================*/
+/*===================*/
+.pad30 {
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+
+.menu {
+    float: left;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.contant {
+    float: left;
+    margin-left: 70px;
+    width: 600px;
+}
+.right-foto {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+}
+.right-foto img{
+    width: 250px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer-left img {
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+}
+.footer-left div{
+    float: left;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer-right {
+    float: right;
+    height: 40px;
+    padding-top: 6px;
+    margin-top: 20px;
+}
+.footer-right div{
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.foot {
+    margin-bottom: 20px;
+}
+.header {
+    background-color: #9cafff;
+    padding: 10px 0 10px 0;
+}
+.cont-lef-rig {
+    background-color: #eaeeff;
+}
+.footer-color {
+    background-color: #adbcff;
+    height: 85px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 6;
+}
+.btn {
+    float: left;
+    background-color: #10577c;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+#contact {
+    margin: 2px 15px 0 15px;
+}
+#login {
+    margin: 2px 15px 0 0;
+}
+img[alt="start"]{
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.contant p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(0, 69, 255, 0.96);
+}
+.contant button {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 3px 20px;
+    border-radius: 25px;
+    letter-spacing: 5px;
+}
+.contant iframe {
+    width: 800px;
+    height: 450px;
+    display: block;
+    margin:  0 auto;
+    margin: 20px 0 40px 0;
+}
+.hist {
+    margin: 0 0 15px 60px;
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+}

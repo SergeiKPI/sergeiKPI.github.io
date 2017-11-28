@@ -1,0 +1,15 @@
+input[value="Реєстрація"]{
+    background-color: #2d6dfd;
+    border-radius: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+input[value="Очистити форму"]{
+    background-color: #dfebff;
+    color: black;
+    border-radius: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 16px;
+}

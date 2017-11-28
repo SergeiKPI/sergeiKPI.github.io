@@ -1,0 +1,83 @@
+.leftDive p{
+    color: black;
+}
+.searchDive {
+    margin: 20px 0;
+}
+.searchDive button {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    background-image: url(../image/search.png);
+    background-size: contain;
+    border-radius: 0;
+    background-color: transparent;
+    
+}
+.searchDive input[alt="search"] {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    border-radius: 5px;
+    padding: 5px;
+}
+.searchDive input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.33);
+}
+.btnDetail button{
+    letter-spacing: normal;
+    width: 170px;
+    font-size: 16px;
+    background-color: #9cafff;
+    border: 1px solid #0031ff;
+    color: #151515;
+    margin-bottom: 20px;
+}
+.btnDetail button:first-child{
+    letter-spacing: normal;
+    width: 170px;
+    font-size: 16px;
+}
+.spanBlock p{
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    float: left;
+    font-weight: 100;
+    text-align: left;
+    line-height: 0.8;
+}
+.details {
+    font-size: 14px!important;
+}
+.leftDive ul{
+    float: left;
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+}
+.socNet img{
+    width: 35px;
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+img[alt="center"] {
+    width: 380px;
+    margin-bottom: 100px;
+}
+.rightDive button{
+    letter-spacing: normal;
+    width: 170px;
+    font-size: 16px;
+    background-color: #9cafff;
+    border: 1px solid #0031ff;
+    color: #151515;
+    margin-bottom: 20px;
+    height: 50px;
+    margin-top: 13    0px;
+}
+.rightDive img{
+    width: 480px;
+    margin-left: 10px;
+}
